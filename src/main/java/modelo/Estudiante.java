@@ -33,6 +33,16 @@ public class Estudiante {
         this.edad = edad;
     }
 
+    public Estudiante(String nombre, String apellido, String email, String telefono, double edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+        this.telefono = telefono;
+        this.edad = edad;
+    }
+    
+    
+
     public int getIdEstudiante() {
         return idEstudiante;
     }

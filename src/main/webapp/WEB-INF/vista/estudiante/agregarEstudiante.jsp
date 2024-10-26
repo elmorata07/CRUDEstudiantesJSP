@@ -1,14 +1,14 @@
 <div class="modal fade" id="agregarEstudianteModal">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-
+            
             <div class="modal-header bg-info text-white">
                 <h5 class="modal-title">Agregar Estudiante</h5>
                 <button clase="clse" data-dismiss="modal">
                     <span>&times;</span>
                 </button>
-            </div>
-
+        </div>
+            
             <form action="${pageContext.request.contextPath}/ServletControlador?accion=insertar"
                   method="POST" class="was-validated">
                 <div class="modal-body">
@@ -35,8 +35,8 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn-primary" type="submit">Guardar Estudiante</button>
-
-                </div>
+                   
+                    </div>
             </form>  
         </div>
     </div>
